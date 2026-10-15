@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>patient name</h3>
+    <input type="text" name="name" id="name"><br>
+    <h3>Email</h3>
+    <input type="email" name="email" id="email"><br>
+    <h3>password</h3>
+    <input type="password" name="password" id="password">
+    <button type="submit" id="submit">Submit</button>
+        <script>
+
+            const name = document.getElementById("name");
+            const nameValidity = name.validity;
+        
+            const email = document.getElementById("email");
+             
+            const password = document.getElementById("password");
+            const submitButton = document.getElementById("submit");
+            console.dir(submitButton);
+            
+        </script>
+</body>
+</html>
